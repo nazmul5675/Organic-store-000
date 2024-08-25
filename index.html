@@ -27,6 +27,7 @@
         .bg-opacity-50 {
             background: url('./images/leaf01.png') no-repeat right bottom;
             opacity: 0.5;
+            z-index: 0;
         }
     </style>
 </head>
@@ -71,10 +72,9 @@
         </nav>
         <!-- banner -->
         <section class=" bg-orange-50">
-            <div class="bg-[url('./images/leaf01.png')] bg-no-repeat bg-right-bottom ">
-
+            <div class="">
                 <!-- class="bg-[url('./images/leaf01.png')] bg-no-repeat bg-right-bottom" -->
-                <div class="sm:w-11/12 w-9/12  mx-auto ">
+                <div class=" justify-center z-10 sm:w-11/12 w-9/12  mx-auto ">
                     <div class=" grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 lg:p-20 p-2">
                         <div><img src="images/bannerbg.png" alt="">
                         </div>
@@ -96,6 +96,46 @@
             </div>
         </section>
     </header>
+    <!-- main -->
+    <main>
+        <!-- black box -->
+        <section>
+            <div class="bg-stone-900 text-white p-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+                <!-- box-1 -->
+                <div class="flex items-center gap-4 p-6 m-5 bg-zinc-700">
+                    <i class="fa-solid fa-truck text-xl"></i>
+                    <div>
+                        <h1 class="font-medium text-xl">Free Shipping</h1>
+                        <p class="font-normal text-base">Above $5 Only</p>
+                    </div>
+                </div>
+                <!-- box-2 -->
+                <div class="flex items-center gap-4 p-6 m-5 bg-zinc-700">
+                    <i class="fa-solid fa-piggy-bank text-xl"></i>
+                    <div>
+                        <h1 class="font-medium text-xl">Huge Savings</h1>
+                        <p class="font-normal text-base">At Lowest Price</p>
+                    </div>
+                </div>
+                <!-- box-3 -->
+                <div class="flex items-center gap-4 p-6 m-5 bg-zinc-700">
+                    <i class="fa-solid fa-certificate text-xl"></i>
+                    <div>
+                        <h1 class="font-medium text-xl">Certified Organic</h1>
+                        <p class="font-normal text-base">100% Organic</p>
+                    </div>
+                </div>
+                <!-- box-4 -->
+                <div class="flex items-center gap-4 p-6 m-5 bg-zinc-700">
+                    <i class="fa-solid fa-recycle text-xl"></i>
+                    <div>
+                        <h1 class="font-medium text-xl">Easy Returns</h1>
+                        <p class="font-normal text-base">No Questions Asked</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
