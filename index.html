@@ -23,12 +23,6 @@
         .poppins-regular {
             font-family: "Poppins", sans-serif;
         }
-
-        .bg-opacity-50 {
-            background: url('./images/leaf01.png') no-repeat right bottom;
-            opacity: 0.5;
-            z-index: 0;
-        }
     </style>
 </head>
 
@@ -71,25 +65,26 @@
             </div>
         </nav>
         <!-- banner -->
-        <section class=" bg-orange-50">
-            <div class="">
-                <!-- class="bg-[url('./images/leaf01.png')] bg-no-repeat bg-right-bottom" -->
-                <div class=" justify-center z-10 sm:w-11/12 w-9/12  mx-auto ">
-                    <div class=" grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 lg:p-20 p-2">
-                        <div><img src="images/bannerbg.png" alt="">
-                        </div>
-                        <div class="md:space-y-5 space-y-6 p-3 sm:text-left text-center">
-                            <p class="text-xl font-bold text-stone-900">Best Quality Products</p>
-                            <h1 class="md:text-4xl lg:text-7xl text-3xl font-bold text-stone-900">Join The Organic
-                                Movement!</h1>
-                            <p class="text-sm font-normal text-stone-500">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut elit tellus, luctus nec
-                                ullamcorper
-                                mattis, pulvinar dapibus leo.</p>
-                            <button
-                                class="btn hover:bg-lime-600 bg-lime-700 text-white transition-colors ease-in-out duration-300"><i
-                                    class="fa-solid fa-cart-shopping"></i> Shope
-                                Now</button>
+        <section class=" bg-orange-50 bg-opacity-90">
+            <div style="background-image: url(./images/leaf01.png);" class="bg-no-repeat  bg-right-bottom">
+                <div class=" bg-orange-50 bg-opacity-70">
+                    <div class=" justify-center z-10 sm:w-11/12 w-9/12 mx-auto ">
+                        <div class=" grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 lg:p-20 p-2">
+                            <div><img src="images/bannerbg.png" alt="">
+                            </div>
+                            <div class="md:space-y-5 space-y-6 p-3 sm:text-left text-center">
+                                <p class="text-xl font-bold text-stone-900">Best Quality Products</p>
+                                <h1 class="md:text-4xl lg:text-7xl text-3xl font-bold text-stone-900">Join The Organic
+                                    Movement!</h1>
+                                <p class="text-sm font-normal text-stone-500">Discover the Finest Organic Goods. Embrace
+                                    aHealthier Lifestyle! Experience the purity of nature with every product. Our
+                                    commitment
+                                    to quality and sustainability ensures you get the best.</p>
+                                <button
+                                    class="btn hover:bg-lime-600 bg-lime-700 text-white transition-colors ease-in-out duration-300"><i
+                                        class="fa-solid fa-cart-shopping"></i> Shope
+                                    Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -145,12 +140,9 @@
                         they
                         should choose
                         your business</h1>
-                    <p class="font-normal text-stone-900">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias earum, tenetur quam
-                        repellendus architecto sequi consequatur deserunt illum? Repellat, consequatur quae. Ut, quas
-                        distinctio expedita perspiciatis molestias voluptas nam optio unde sunt dolor, quo dicta
-                        reiciendis! Alias nostrum tempore blanditiis earum eum autem sapiente voluptatum. Optio sunt
-                        perferendis maiores natus!</p>
+                    <p class="font-normal text-stone-900">Learn more about our commitment to providing organic,
+                        sustainable products. We believe in transparency, quality, and the well-being of our community.
+                        Join us in making a positive impact on the planet.</p>
                     <button
                         class="btn bg-lime-700 hover:bg-lime-600 transition-colors ease-in-out duration-300 text-white">Find
                         Out More</button>
@@ -163,13 +155,13 @@
         <!-- Insert A call to action -->
         <section class="bg-[url('./images/call.jpg')] bg-cover bg-no-repeat bg-center h-96 ">
             <div class="text-center sm:p-20 p-10 text-white space-y-5 bg-gradient-to-r from-black/30 to-black/30 h-96">
-                <h1 class="text-5xl font-medium">Insert A call to action
+                <h1 class="sm:text-5xl text-4xl font-medium">Get Involved
                 </h1>
-                <p class="text-xl ">Think of what you want your visitors to do next maybe they should contact
-                    you?
+                <p class="text-xl ">Ready to start your organic journey? Reach out to us today and discover how you can
+                    contribute to a healthier planet. Let's connect and grow together.
                 </p>
                 <button
-                    class="btn bg-transparent border-1 border-white text-white hover:bg-lime-600 hover:border-none">Get
+                    class="btn bg-transparent border-1 border-white text-white hover:bg-lime-600 hover:border-none transition-colors ease-in-out duration-300">Get
                     In
                     Touch</button>
             </div>
@@ -179,9 +171,9 @@
             <div>
                 <h1 class="mt-8 text-5xl font-medium text-stone-900 text-center mb-5">Best Selling Products</h1>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-10   ">
                 <!-- card -1 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product01.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -201,13 +193,13 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product02.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <p class="text-sm text-slate-500">Groceries</p>
-                        <h2 class="card-title">Assorted Coffee</h2>
+                        <h2 class="card-title">Organic Extra Virgin Olive Oil</h2>
                         <h1>
                             <i class="fa-solid fa-star text-yellow-500"></i><i
                                 class="fa-solid fa-star text-yellow-500"></i><i
@@ -221,7 +213,7 @@
                     </div>
                 </div>
                 <!-- card -3 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product03.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -241,7 +233,7 @@
                     </div>
                 </div>
                 <!-- card -4 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product04.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -261,7 +253,7 @@
                     </div>
                 </div>
                 <!-- card-5 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product05.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -281,7 +273,7 @@
                     </div>
                 </div>
                 <!-- card-6 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product06.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -301,7 +293,7 @@
                     </div>
                 </div>
                 <!-- card-7 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product07.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -321,7 +313,7 @@
                     </div>
                 </div>
                 <!-- card-8 -->
-                <div class="card bg-base-100  shadow-xl">
+                <div class="card bg-base-100  shadow-xl w-11/12 mx-auto">
                     <figure class="px-10 pt-10">
                         <img src="images/product08.jpg" alt="Shoes" class="rounded-lg" />
                     </figure>
@@ -345,7 +337,7 @@
         <!-- Featured Brands: -->
         <section class="flex lg:flex-row flex-col justify-center items-center bg-slate-100 lg:p-10 p-2  mt-32 ">
             <h1 class="  text-black font-medium text-3xl 
-                    ">Featured Brands:</h1>
+                    ">Trusted Partners:</h1>
             <div class=" flex lg:flex-nowrap flex-wrap justify-center items-center  ">
                 <img src="images/logo-1.svg" alt="">
                 <img src="images/logo-2.svg" alt="">
